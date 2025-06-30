@@ -3,10 +3,17 @@ import React from 'react';
 import WalletConnectButton from './components/WalletConnectButton';
 import AlgoIntentChat from './components/AlgoIntentChat';
 import logo from './assets/logo.svg';
+import boltBadge from './assets/black_circle_360x360.png';
 
 const Home: React.FC = () => {
   return (
     <div className="main-container min-h-screen flex flex-col bg-[#f8fafc]" style={{ minHeight: '100vh', width: '100vw' }}>
+      {/* Bolt.new badge at top left */}
+      <img
+        src={boltBadge}
+        alt="Powered by Bolt.new"
+        style={{ position: 'fixed', top: 16, left: 16, width: 56, height: 56, zIndex: 1000 }}
+      />
       {/* Spacer for wallet button on mobile */}
       <div className="header-spacer"></div>
       {/* Header/title centered at the top */}
