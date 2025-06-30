@@ -150,5 +150,6 @@ MIT License — see [LICENSE](LICENSE)
 
 <p align="center">
   <img src="./netlify.svg" alt="Netlify" height="48" style="margin-right: 24px;"/>
-  <img src="./algorandimage.svg" alt="Algorand" height="48"/>
+  <img src="./algorandimage.svg" alt="Algorand" height="48" style="margin-right: 24px;"/>
+  <img src="./black_circle_360x360.png" alt="Bolt.new" height="48"/>
 </p>
