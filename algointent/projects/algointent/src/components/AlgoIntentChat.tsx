@@ -910,7 +910,7 @@ const AlgoIntentChat: React.FC = () => {
                 )}
                 {message.txid && (
                   <div className="message-status" style={{ marginTop: '0.3rem', fontSize: '0.85rem', opacity: 0.7 }}>
-                    TxID: {message.txid.substring(0, 8)}...
+                    TxID: <a href={`https://testnet.explorer.perawallet.app/tx/${message.txid}`} target="_blank" rel="noopener noreferrer" style={{ color: '#4ecb6e', textDecoration: 'underline' }}>{message.txid.substring(0, 8)}...</a>
                   </div>
                 )}
               </div>
